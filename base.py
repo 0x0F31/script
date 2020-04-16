@@ -42,7 +42,7 @@ def recvuntil(pattern):
 def pw(d):
   return pack("<I", d)
 
-def pq(d):                                                                                                      return pack("<Q", d)
+def pq(d):
   return pack("<Q", d)
   
 def uw(s):
