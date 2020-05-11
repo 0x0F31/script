@@ -1,4 +1,5 @@
 import distorm3
+#Taken from there https://www.youtube.com/watch?v=iwRSFlZoSCM
 
 FILE = "input_file"
 FILE_OFF_START = 0x1000
