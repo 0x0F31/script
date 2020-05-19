@@ -22,7 +22,6 @@ def dis(bin,address):
 
 	return []
 
-
 FILE = open(INPUT_FILE, "rb").read()
 
 for i in range(START_SEC_OFFSET, END_SEC_OFFSET):
