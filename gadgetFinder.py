@@ -2,7 +2,6 @@ import capstone as cs
 
 
 INPUT_FILE = "calc"
-
 START_SEC_OFFSET = 0x2d0
 END_SEC_OFFSET = 0x76954 + START_SEC_OFFSET #lenght of section + start
 VA = 0x8048000
@@ -24,9 +23,7 @@ def dis(bin,address):
 	return []
 
 
-
 FILE = open(INPUT_FILE, "rb").read()
-
 
 for i in range(START_SEC_OFFSET, END_SEC_OFFSET):
 	d = dis(FILE[i:i+30],VA+i)
